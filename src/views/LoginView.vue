@@ -117,7 +117,7 @@ const handleLogin = async () => {
 </script>
 
 <style scoped>
-/* ── Base reset & font ── */
+/* ── Base reset dan font ── */
 * { box-sizing: border-box; }
 
 .login-container {

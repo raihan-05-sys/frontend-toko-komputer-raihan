@@ -239,7 +239,7 @@ const openTambah = () => {
   
   form.value = { 
     id_pelanggan: null, 
-    tanggal_pesanan: hariIni, // Tanggal langsung terisi otomatis
+    tanggal_pesanan: hariIni, // Tanggal akan langsung terisi otomatis
     total_bayar: 0, 
     keranjang: [] 
   }

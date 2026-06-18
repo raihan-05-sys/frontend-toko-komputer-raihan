@@ -169,7 +169,7 @@ const fixedAction = computed(() => windowWidth.value > 900 ? 'right' : false)
 .table-card { border-radius: 14px; }
 .add-button { font-weight: 600; letter-spacing: 0.3px; }
 
-/* CSS Baru untuk merapikan tombol Aksi agar sejajar ke samping */
+/* CSS Baru digunakan untuk merapikan tombol Aksi agar sejajar ke samping */
 .action-group { 
   display: flex; 
   justify-content: center; 

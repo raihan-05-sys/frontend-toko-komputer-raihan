@@ -143,7 +143,7 @@ const hapus = async (id) => {
 
 onMounted(fetchData)
 
-// Responsiveness: toggle fixed action column on narrow screens
+// Responsiveness: toggle fixed action colum on narrow screens
 const windowWidth = ref(typeof window !== 'undefined' ? window.innerWidth : 1200)
 const updateWidth = () => { windowWidth.value = window.innerWidth }
 onMounted(() => { window.addEventListener('resize', updateWidth) })

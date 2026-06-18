@@ -154,7 +154,7 @@
               </div>
             </div>
 
-            <!-- BAGIAN BARU: 5 TRANSAKSI TERAKHIR -->
+            <!-- BAGIAN BARU: 5 TRANSAKSI TERAKIR -->
             <h3 class="section-title" style="margin-top: 40px;">5 Transaksi Terakhir</h3>
             <el-card shadow="never" class="table-card">
               <el-table :data="recentOrders" v-loading="ordersLoading" stripe style="width: 100%" empty-text="Belum ada transaksi">
