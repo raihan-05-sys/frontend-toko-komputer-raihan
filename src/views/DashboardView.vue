@@ -212,7 +212,7 @@ const isMobile = ref(typeof window !== 'undefined' ? window.innerWidth < 768 : f
 // Format tanggal hari ini (Contoh: "Rabu, 24 Mei 2024")
 const currentDate = ref(new Date().toLocaleDateString('id-ID', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }))
 
-const BASE_URL  = 'https://tugas8-auth-api.vercel.app'
+const BASE_URL  = 'http://localhost:3000'
 const getHeaders = () => ({
   'Content-Type': 'application/json',
   'Authorization': 'Bearer ' + localStorage.getItem('karcis_toko_raihan')

@@ -132,7 +132,7 @@ import { ElMessage, ElMessageBox } from 'element-plus'
 import { Plus, Edit, Delete, View } from '@element-plus/icons-vue' 
 
 const router = useRouter()
-const BASE_URL = 'https://tugas8-auth-api.vercel.app'
+const BASE_URL = 'http://localhost:3000'
 const getHeaders = () => ({
   'Content-Type': 'application/json',
   'Authorization': 'Bearer ' + localStorage.getItem('karcis_toko_raihan')

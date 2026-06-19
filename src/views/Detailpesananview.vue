@@ -31,7 +31,7 @@ import { ElMessage } from 'element-plus'
 
 const route = useRoute()
 const idPesanan = ref(route.query.id_pesanan || null)
-const BASE_URL = 'https://tugas8-auth-api.vercel.app'
+const BASE_URL = 'http://localhost:3000'
 const getHeaders = () => ({
   'Content-Type': 'application/json',
   'Authorization': 'Bearer ' + localStorage.getItem('karcis_toko_raihan')
